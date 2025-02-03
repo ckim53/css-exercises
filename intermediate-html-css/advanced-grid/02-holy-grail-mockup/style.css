@@ -16,7 +16,15 @@
 }
 
 .header {
+  display: grid;
+  grid-template: 1fr / 1fr 1fr;
   background-color: #393f4d;
+}
+
+.header ul {
+  display: grid;
+  list-style-type: none;
+  grid-template: 1fr / repeat(4, 1fr);
 }
 
 .menu ul,
